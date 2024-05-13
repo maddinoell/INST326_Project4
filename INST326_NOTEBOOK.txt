@@ -1,0 +1,7 @@
+
+GUI_and_Tkinter	Remember to import  tkinter as TK , then create a main window and create buttons and labels! Using function Tk() is useful for buttons, labels, interface and more user interaction
+boxes! 	import tkinter as tk 
+from tkinter import ttk
+create_button = tk.Button(self, text='Create New Note', command=self.new_note, bg='white', fg='black', padx=50, pady=10)
+        create_button.grid(row=40, column=0, padx=5, pady=5, sticky = 'w')   #updated row and padx sizing for improving button visual display
+	Maddi Oakes	https://realpython.com/python-gui-tkinter/'	#userinteraction #GUI #Tkinter #widgets 	2024-05-12T22:55:01.495235	
